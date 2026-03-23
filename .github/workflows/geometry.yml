@@ -24,7 +24,6 @@ jobs:
         run: pip install matplotlib numpy
 
       - name: Run Geometry Script
-        # Path ekdum sahi hai tera
         run: python .github/workflows/check_geometry.py
 
       - name: Save My Graph
