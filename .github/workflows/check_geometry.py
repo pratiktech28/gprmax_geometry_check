@@ -8,7 +8,6 @@ def plot_geometry(file_path):
 
     with open(file_path, 'r') as f:
         for line in f:
-            # Box check: #box: x1 y1 z1 x2 y2 z2 material
             if line.startswith('#box:'):
                 parts = line.split(': ')[1].split()
                 x1, y1, x2, y2 = float(parts[0]), float(parts[1]), float(parts[3]), float(parts[4])
@@ -16,7 +15,6 @@ def plot_geometry(file_path):
                 ax.add_patch(rect)
                 found_geometry = True
 
-            # Cylinder check: #cylinder: x y z_start z_end radius material
             elif line.startswith('#cylinder:'):
                 parts = line.split(': ')[1].split()
                 x, y, r = float(parts[0]), float(parts[1]), float(parts[4])
