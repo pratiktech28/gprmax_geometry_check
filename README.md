@@ -1,4 +1,10 @@
-**🛰️ gprMax Spatial Fidelity & Geometry Validator**
+[![gprMax Geometry Visual Check](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml/badge.svg)](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml)
+
+![images](https://github.com/user-attachments/assets/50e360df-19a1-43eb-9f86-ffafd530985d)
+![download](https://github.com/user-attachments/assets/6cecd15f-c44a-4f41-9601-36e26c5231df)
+
+**🛰️ gprMax Spatia
+l Fidelity & Geometry Validator**
 **Automated Geometric Integrity Testing for Physics-Based Electromagnetic Simulation***
 **📖 Overview**
 In computational electromagnetics, specifically within gprMax, spatial accuracy is the foundation of numerical validity. A single coordinate error in the .in file can lead to hours of wasted compute resources on a flawed model.
@@ -39,10 +45,10 @@ git clone https://github.com/pratiktech28/gprmax_geometry_check.git
 pip install matplotlib
 
 # Run the validation script
-python check_geometry.py --input simulation_model.in
+python <img width="800" height="600" alt="geometry_preview" src="https://github.com/user-attachments/assets/58ba7b79-507f-43d0-87ea-0e57a2dfe443" />
+check_geometry.py --input simulation_model.in
 ---
 
-<img width="800" height="600" alt="geometry_preview" src="https://github.com/user-attachments/assets/3bbbe122-cba6-45b0-be57-870de9fdc48c" />
 
 
 **👨‍💻 Contributor Insights**
