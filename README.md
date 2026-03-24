@@ -1,5 +1,4 @@
-[![gprMax Geometry Visual Check](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml/ba
-dge.svg)](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml)
+[![gprMax Geometry Visual Check](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml/badge.svg)](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml)
 
 ![images](https://github.com/user-attachments/assets/50e360df-19a1-43eb-9f86-ffafd530985d)         <img width="200" height="200" alt="download" src="https://github.com/user-attachments/assets/6a03ea57-b70e-420e-9295-742808096b96" />     
 
