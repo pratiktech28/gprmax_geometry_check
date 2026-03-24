@@ -1,6 +1,7 @@
 [![gprMax Geometry Visual Check](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml/badge.svg)](https://github.com/pratiktech28/gprmax_geometry_check/actions/workflows/geometry.yml)
 
 ![images](https://github.com/user-attachments/assets/50e360df-19a1-43eb-9f86-ffafd530985d)
+
 ![download](https://github.com/user-attachments/assets/6cecd15f-c44a-4f41-9601-36e26c5231df)
 
 **🛰️ gprMax Spatia
@@ -9,7 +10,10 @@ l Fidelity & Geometry Validator**
 **📖 Overview**
 In computational electromagnetics, specifically within gprMax, spatial accuracy is the foundation of numerical validity. A single coordinate error in the .in file can lead to hours of wasted compute resources on a flawed model.
 This repository implements an Automated Geometry Validation Pipeline. It parses simulation input files, extracts spatial configurations (Antennas, Targets, PML boundaries), and validates their alignment against the intended physical model—all within a CI/CD environment.
+
+---
 **🛠️ Technical Execution & Proof**
+
 Attribute,Indicator,Status / Value
 Pipeline Core,geometry.yml,✅ PASSED
 Verification Speed,⚡ High Velocity,27 Seconds
@@ -17,6 +21,7 @@ Coordinate Precision,🎯 Sub-Millimeter,±0.001 m
 Environment Check,🛡️ Spatial Fidelity,VERIFIED
 
 **🖼️ Spatial Interpretation & Visualization**
+
 The pipeline generates a Simulation Domain Preview to ensure that the engine correctly interprets the spatial configuration. This visual proof confirms that the antenna source and buried targets are localized with absolute precision.
 
 <div align="center">
@@ -34,6 +39,8 @@ The validation process is divided into three critical stages:
 Parsing Engine: A custom-built script scans the user_model.in for #box and #cylinder directives.
 Geometric Mapping: Converts raw simulation coordinates into a visual coordinate system, ensuring that PML (Perfectly Matched Layer) boundaries do not intersect with active sources.
 CI/CD Gatekeeping: The GitHub Action fails the build if any geometric overlap or out-of-bounds error is detected, preventing resource leakage.
+
+
 **🚀 Deployment & Local Usage**
 To verify geometry locally before pushing to the cloud:
 
